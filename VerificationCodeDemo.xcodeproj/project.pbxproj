@@ -15,6 +15,7 @@
 		646D87041C90153200EBDB15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 646D87021C90153200EBDB15 /* LaunchScreen.storyboard */; };
 		646D870F1C90153200EBDB15 /* VerificationCodeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 646D870E1C90153200EBDB15 /* VerificationCodeDemoTests.m */; };
 		646D871A1C90153200EBDB15 /* VerificationCodeDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 646D87191C90153200EBDB15 /* VerificationCodeDemoUITests.m */; };
+		646D872C1C9015B100EBDB15 /* AuthcodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 646D872B1C9015B100EBDB15 /* AuthcodeView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		646D87151C90153200EBDB15 /* VerificationCodeDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VerificationCodeDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		646D87191C90153200EBDB15 /* VerificationCodeDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VerificationCodeDemoUITests.m; sourceTree = "<group>"; };
 		646D871B1C90153200EBDB15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		646D872A1C9015B100EBDB15 /* AuthcodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthcodeView.h; sourceTree = "<group>"; };
+		646D872B1C9015B100EBDB15 /* AuthcodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthcodeView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				646D86F81C90153200EBDB15 /* AppDelegate.m */,
 				646D86FA1C90153200EBDB15 /* ViewController.h */,
 				646D86FB1C90153200EBDB15 /* ViewController.m */,
+				646D872A1C9015B100EBDB15 /* AuthcodeView.h */,
+				646D872B1C9015B100EBDB15 /* AuthcodeView.m */,
 				646D86FD1C90153200EBDB15 /* Main.storyboard */,
 				646D87001C90153200EBDB15 /* Assets.xcassets */,
 				646D87021C90153200EBDB15 /* LaunchScreen.storyboard */,
@@ -271,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				646D86FC1C90153200EBDB15 /* ViewController.m in Sources */,
+				646D872C1C9015B100EBDB15 /* AuthcodeView.m in Sources */,
 				646D86F91C90153200EBDB15 /* AppDelegate.m in Sources */,
 				646D86F61C90153200EBDB15 /* main.m in Sources */,
 			);
